@@ -68,7 +68,10 @@ section h3{text-align: center;
 /*모바일 농심*/
 .W_menu{
 
-}.case6 .two a{width: 100%; display: flex;
+}
+.case6 .two:hover{border: 2px solid rgb(241, 49, 1);
+                  }
+.case6 .two a{width: 100%; display: flex;
 justify-content: center;
 }
 .case6 .two img{width: 45%;}
@@ -91,6 +94,8 @@ justify-content: center;
 
 .hyundaiWrap{
 
+}
+.case9 .four:hover{border: 2px solid rgb(241, 49, 1);
 }
 .case9 .four a{width: 100%; display: flex;
 justify-content: center;
@@ -129,6 +134,8 @@ margin-top: 30px;
 .wooriWrap{
 
 }
+.case12 .six:hover{border: 2px solid rgb(241, 49, 1);
+}
 .case12 .six{width: 100%; display: flex;
 justify-content: center;
 margin-top: 30px;
@@ -155,6 +162,8 @@ margin-top: 30px;
 
 .framkWrap{
 
+}
+.case15 .eight:hover{border: 2px solid rgb(241, 49, 1);
 }
 .case15 .eight{width: 100%; display: flex;
 justify-content: center;
@@ -205,6 +214,11 @@ margin-top: 30px;
 
 /*tablet*/
 @media all and (min-width : 900px){
+h2{font-size: 48px; font-weight: bold;
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translateX(-50%);
+        color: #333;}
     li img{display: none;}
 .resume{margin-top: 30px;}
 .h_menu{width: 80%; margin-top: 20px;}
@@ -249,6 +263,11 @@ margin-top: 30px;
 }
 /*pc*/
 @media all and (min-width : 1200px){
+h2{font-size: 64px; font-weight: bold;
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translateX(-50%);
+        color: #333;}
 .resumeWrap{width: 75%; margin: 0 auto;
             height: auto;
             }
