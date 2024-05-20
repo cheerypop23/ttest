@@ -70,7 +70,7 @@ section h3{text-align: center;
 
 }
 .case6 .two:hover{border: 2px solid rgb(241, 49, 1);
-                  }
+            }
 .case6 .two a{width: 100%; display: flex;
 justify-content: center;
 }
