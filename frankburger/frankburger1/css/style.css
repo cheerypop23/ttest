@@ -35,7 +35,7 @@ header .hWrap h1{margin-top: 10px; }
                  top: 50px; left: 0;
                  display: none;}
 
-main{background-image: url(../img/capture.jpg); 
+main{
      width: 50%; height: 1000px;
      margin: 0 auto;
      background-repeat: no-repeat;
