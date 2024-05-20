@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.canvas{width: 100%; height: 100%;
+        background-color: gray;}
+.logo img{width: 250px; height: 50px;
+          position: absolute;
+          top: 5%;
+          left: 15%;
+          }
+.rotate img{width: 70px; height: 70px;
+            position: absolute;
+            top: 80%;
+            left: 45%;
+            }
+.ioniq p{width: 300px; height: 300px;
+        position: absolute;
+        top: 10%;
+        left: 15%;
+        color: #ffffff;
+        font-size: 40px;}
+/*버튼만들기*/
+  /*버튼리셋*/
+button{
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  outline: none;
+  cursor: pointer;
+}
+.actions{position: absolute;
+ bottom: 120px;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ display: flex;}
+.action button{
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  color: #333;
+  background-color: aqua;
+  margin-right: 20px;
+}
+#progress-bar-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #ffffff;
+  font-size: 2rem;
+}
+#progress-bar{
+  width: 30%;
+  height: 3%;
+  margin-top: 6px;
+}
+
+@media all and (min-width : 768px){
+
+  .canvas{width: 100%; height: 100%;}
+  .logo img{width: 300px; height: 50px;
+            position: absolute;
+            top: 5%;
+            left: 40%;
+            }
+  .rotate img{width: 70px; height: 70px;
+              position: absolute;
+              top: 75%;
+              left: 50%;
+              }
+  .ioniq p{width: 400px; height: 200px;
+          position: absolute;
+          top: 10%;
+          left: 40%;
+          color: #ffffff;
+          font-size: 50px;} 
+}

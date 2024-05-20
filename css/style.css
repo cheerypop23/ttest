@@ -1,0 +1,335 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: inherit;}
+ul, li{list-style: none;}
+
+header{width: 100%; height: 100vh;
+       background-image: url(../img/background.jpg);
+       background-size: cover;
+       position: relative;
+    }
+li img{position: absolute;
+       right: 0; top: 0;}
+h2{font-size: 32px; font-weight: bold;
+   position: absolute;
+   top: 50%; left: 50%;
+   transform: translateX(-50%);
+   color: #333;}
+h3{text-align: center;
+            font-size: 32px;
+            margin-top: 20px;}
+.resumeWrap{width: 95%; margin: 0 auto;}
+.h_menu{width: 95%; margin: 0 auto;
+       /* height: 90vh; */
+       
+       }
+.h_menu img{width: 150px; height: 200px;
+            margin-top: 30px;
+            padding-left: 20px;}
+.part1{display: flex;}
+.case1{width: 300px; height: 200px;
+      padding-top: 70px;
+      padding-left: 30px;}
+.case1 li{font-size: 0.9rem;}
+.case1 li:nth-child(1){color: darkgreen;
+                       font-weight: bold;}                     
+.part2{display: flex;}
+.case2{width: 250px; height: 250px;
+       padding-left: 20px;}
+.case2 li{font-size: 0.9rem;}
+.case2 li:nth-child(1){color: darkgreen;
+                       font-weight: bold;}  
+.case3{width: 250px; height: 250px;}
+.case3 li{font-size: 0.9rem;}
+.case3 li:nth-child(1){color: darkgreen;
+    font-weight: bold;}  
+.part3{display: flex;} 
+.case4{width: 200px; height: 200px;
+       margin-top: 10px;}
+.case4 li{font-size: 0.9rem; padding-left: 20px;}
+.case4 li:nth-child(1){color: darkgreen;
+                       font-weight: bold;}
+.one{width: 250px; height: 250px;}
+.one img{width: 50px; height: 70px;}
+.case5{width: 250px; height: 250px;}
+.case5 li:nth-child(1){color: darkgreen;
+    font-weight: bold;}
+.case5 {padding-top: 10px;
+        padding-left: 30px;}
+.case5 li{font-size: 0.9rem;}
+
+/*project*/
+.nongshimWrap{width: 100%;  margin: 0 auto;}
+.W_menu{width: 100%;  margin: 0 auto;
+       /* height: 90vh; */
+       }
+.case6{width: 100%; height: 300px;
+       margin-top: 50px;}
+.two img{width: 200px; height: 200px;
+         }
+.wrapping{display: flex;}
+.group{display: flex; margin-left: 30px;
+       margin-top: 20px;}
+.button1{width: 55px; height: 25px;
+         background-color: aqua;
+         }
+.button2{width: 55px; height: 25px;
+         background-color: aqua;
+         margin-left: 5px;}
+.button3{width: 55px; height: 25px;
+         background-color: aqua;
+         margin-left: 5px;}
+.group1{display: flex; margin-left: 30px;
+       margin-top: 20px;}
+.button4{width: 55px; height: 25px;
+         background-color: aqua;
+       }
+.button5{width: 55px; height: 25px;
+         background-color: aqua;
+         margin-left: 5px;}
+.button6{width: 55px; height: 25px;
+         background-color: aqua;
+         margin-left: 5px;}
+.case7{width: 400px; height: 150px;
+       margin-left: 30px;
+       margin-top: 50px;}
+.case7 li{font-size: 15px; }
+.case8{width: 300px; height: 300px;}
+.case8 li{font-size: 15px; text-align:center;
+          padding-top: 20px;
+          padding-left: 60px;}
+.three{display: flex; justify-content: center;
+       width: 400px; height: 100px;
+       margin-top: 20px;
+       }
+.three img{width: 70px; height: 70px;
+          margin-left: 10px;}
+
+.hyundaiWrap{width: 100%;  margin: 0 auto;}
+.S_menu{width: 100%; margin: 0 auto; 
+       /* height: 90vh; */
+       }
+.case9{width: 100%; height: 300px;
+       flex-wrap: wrap;
+       margin-top: 50px;}
+.four img{width: 205px; height: 205px;}
+.wrapping1{display: flex;}
+.group2{display: flex; margin-left: 30px;
+        margin-top: 20px;}
+.button7{width: 55px; height: 25px;
+         background-color: aqua;
+         margin-left: 40px;}
+.button8{width: 55px; height: 25px;
+         background-color: aqua;
+         margin-left: 5px;}
+.group3{display: flex; margin-left: 30px;
+        margin-top: 20px;}
+.button9{width: 55px; height: 25px;
+         background-color: aqua;
+         margin-left: 70px;}
+.button10{width: 55px; height: 25px;
+         background-color: aqua;
+         margin-left: 5px;}
+.case10{width: 400px; height: 150px;
+        margin-left: 30px;}
+.case10 li{font-size: 15px; }
+.case11{width: 300px; height: 300px;}
+.case11 li{font-size: 15px; text-align:center;
+       padding-top: 20px;
+       padding-left: 60px;}
+.five{display: flex; justify-content: center;
+      width: 400px; height: 100px;
+      margin-top: 20px;
+      }
+.five img{width: 70px; height: 70px;
+          margin-left: 10px;}
+.wooriWrap{width: 100%;  margin: 0 auto;}
+.X_menu{width: 100%;  margin: 0 auto;
+       /* height: 90vh; */
+}
+.case12{width: 100%; height: 500px;}
+.six img{width: 450px; height: 350px;}
+.case13{width: 400px; height: 150px;
+        margin-left: 30px;}
+.case13 li{font-size: 15px;
+           }
+.case14{width: 300px; height: 300px;
+        }
+.case14 li{font-size: 15px; text-align: center;
+           padding-top: 20px;
+           padding-left: 20px;}
+.seven{display: flex; justify-content: center;
+       width: 400px; height: 100px;
+       margin-top: 20px;}
+.seven img{width: 70px; height: 70px;
+           margin-left: 10px;}
+.frankWrap{width: 100%;  margin: 0 auto;} 
+.D_menu{width: 100%; margin: 0 auto;
+       /* height: 90vh; */
+}
+.case15{width: 100%; height: 400px;
+        margin-top: 20px;
+        margin-left: 10px;}
+.eight img{width: 400px; height: 300px;}
+.case16{width: 400px; height: 150px;
+        margin-left: 30px;}
+.case16 li{font-size: 15px;}
+.case17{width: 400px; height: 200px;}
+.case17 li{font-size: 15px; 
+           text-align: center;}
+.nine{display: flex; justify-content: center;
+      width: 400px; height: 100px;
+      margin-top: 20px;}
+.nine img{width: 70px; height: 70px;
+          margin-left: 10px;}
+
+.f_wrap{width: 100%; height: 160px;
+        background-color: rgb(238, 158, 8);}
+.menu1{padding: 40px;}
+.fmenu1 li:nth-child(1){color: darkgreen;
+                       font-weight: bold;}
+.fmenu li{font-size: 15px;
+          padding-top: 10px;}
+.fmenu2 li{font-size: 15px;
+           padding-top: 10px;}
+
+
+/*tablet*/
+@media all and (min-width : 900px){
+li img{display: none;}
+.resume{margin-top: 30px;}
+.h_menu{display: flex; justify-content: center;
+       padding-top: 30px;}
+.part1{flex-direction: column;}
+.case1{margin-top: 10px;}
+.case1 li{font-size: 20px;}
+.case2 li{font-size: 20px;}
+.case3 li{font-size: 20px;}
+.case4{margin-top: 60px;}
+.case4 li{font-size: 20px;}
+.one{width: 250px; height: 250px;}
+.case5{padding-top: 60px;
+       padding-left: 70px;}
+.case5 li{font-size: 20px;}
+
+.case6{width: 100%; height: 400px;
+       margin-top: 50px;
+       margin-left: 50px;}
+.two img{width: 300px; height: 300px;}
+.group{display: flex; margin-left: 50px;
+       margin-top: 20px;}
+.button1{width: 55px; height: 25px;
+         background-color: aqua;
+         }
+.button2{width: 55px; height: 25px;
+         background-color: aqua;
+         margin-left: 30px;}
+.button3{width: 55px; height: 25px;
+         background-color: aqua;
+         margin-left: 30px;}
+.group1{display: flex; margin-left: 40px;
+              margin-top: 20px;}
+.button4{width: 55px; height: 25px;
+         background-color: aqua;
+         margin-left: 30px;}
+.button5{width: 55px; height: 25px;
+         background-color: aqua;
+         margin-left: 30px;}
+.button6{width: 55px; height: 25px;
+         background-color: aqua;
+         margin-left: 40px;}
+.case7{padding-left: 300px;
+       padding-top: 30px;}
+.case7 li{font-size: 20px;}
+.case8{padding-left: 300px;}
+.case8 li{font-size: 20px;}
+.three{width: 400px; height: 150px;}
+.three img{width: 100px; height: 100px;}
+
+.case9{width: 100%; height: 400px;}
+.four img{width: 430px; height: 250px;}
+.group2{display: flex; margin-left: 120px;
+       margin-top: 20px;}
+.button7{width: 55px; height: 25px;
+         background-color: aqua;
+         margin-left: 70px;}
+.button8{width: 55px; height: 25px;
+         background-color: aqua;
+         margin-left: 100px;}
+.group3{display: flex; margin-left: 120px;
+              margin-top: 20px;}
+.button9{width: 55px; height: 25px;
+         background-color: aqua;
+         margin-left: 100px;}
+.button10{width: 55px; height: 25px;
+          background-color: aqua;
+          margin-left: 120px;}
+.case10{padding-left: 300px;
+       padding-top: 30px;}
+.case10 li{font-size: 20px;}
+.case11{padding-left: 300px;}
+.case11 li{font-size: 20px;}
+.five{width: 400px; height: 150px;}
+.five img{width: 100px; height: 100px;}
+
+.case12{width: 100%; height: 500px;}
+.six{margin-left: 150px;}
+.six img{width: 600px; height: 500px;}
+.case13{padding-left: 300px;
+       padding-top: 30px;}
+.case13 li{font-size: 20px;}
+.case14{padding-left: 300px;}
+.case14 li{font-size: 20px;}
+.seven{width: 400px; height: 150px;}
+.seven img{width: 100px; height: 100px;}
+
+.case15{width: 100%; height: 400px;}
+.eight{margin-left: 150px;}
+.eight img{width: 550px; height: 350px;}
+.case16{padding-left: 300px;
+       padding-top: 30px;}
+.case16 li{font-size: 20px;}
+.nine{width: 400px; height: 150px;}
+.nine img{width: 100px; height: 100px;}
+.case17{padding-left: 300px;
+       padding-top: 30px;}
+.case17 li{font-size: 20px;}
+
+.f_wrap{width: 100%; height: 200px;
+        background-color: rgb(238, 158, 8);}
+.menu1{padding: 40px;}
+.fmenu1 li:nth-child(1){color: darkgreen;
+                       font-weight: bold;
+                       text-align: center;}
+.fmenu li{font-size: 20px;
+          padding-top: 10px;}
+.fmenu2 li{font-size: 20px;
+           padding-top: 10px;
+           text-align: center;}
+.resumeWrap{width: 85%; margin: 0 auto;}
+.h_menu{width: 85%; margin: 0 auto;}
+.nongshimWrap{width: 85%;  margin: 0 auto;}
+.W_menu{width: 85%;  margin: 0 auto;}
+.hyundaiWrap{width: 85%;  margin: 0 auto;}
+ .S_menu{width: 85%;  margin: 0 auto;}   
+.wooriWrap{width: 85%;  margin: 0 auto;}
+.X_menu{width: 85%;  margin: 0 auto;}
+.frankWrap{width: 85%;  margin: 0 auto;} 
+.D_menu{width: 85%;  margin: 0 auto;}
+
+}
+/*pc*/ 
+@media all and (min-width : 1200px){
+
+.resumeWrap{width: 75%; margin: 0 auto;}
+.h_menu{width: 75%; margin: 0 auto;}
+.nongshimWrap{width: 75%;  margin: 0 auto;}
+.W_menu{width: 75%;  margin: 0 auto;}
+.hyundaiWrap{width: 75%;  margin: 0 auto;}
+.S_menu{width: 75%;  margin: 0 auto;}   
+.wooriWrap{width: 75%;  margin: 0 auto;}
+.X_menu{width: 75%;  margin: 0 auto;}
+.frankWrap{width: 75%;  margin: 0 auto;} 
+.D_menu{width: 75%;  margin: 0 auto;}
+}

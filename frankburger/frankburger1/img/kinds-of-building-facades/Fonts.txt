@@ -1,0 +1,17 @@
+Fonts used in this design:
+
+Font: HamburgerHeaven
+Author: Nick's Fonts
+Url: http://www.fontsquirrel.com/fonts/HamburgerHeaven
+
+Font: Libre Baskerville
+Author: Impallari Type
+Url: http://www.fontsquirrel.com/fonts/libre-baskerville
+
+Font: Lobster
+Author: Impallari Type
+Url: http://www.fontsquirrel.com/fonts/Lobster
+
+Font: Pusab
+Author: Flat-it
+Url: http://www.fontsquirrel.com/fonts/Pusab

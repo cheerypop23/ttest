@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+ 
+    <title>Three.js Interactive Web</title>
+    <script type ="importmap">
+      {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.121.1/build/three.module.js",
+            "gltf":"https://cdn.jsdelivr.net/npm/three@0.121.1/examples/jsm/loaders/GLTFLoader.js",
+            "orbit": "./js/OrbitControls.js"
+        }
+    }
+    </script>
+  </head>
+  <body>
+    <script type="module" src="./js/main.js"></script>
+      <div class="canvas">
+      <h1 class="logo">
+        <a href="../index.html "><img src="./src/hyundai_kona/hyundae logo.PNG"></a>
+      </h1><!--logo-->
+      <h2 class="kona">
+        <p>KONA Electric </p>
+      </h2>
+      </div>
+    <div class="actions">
+
+    </div>
+    <div class="rotate">
+      <a href="#"><img src="./src/hyundai_kona/360(1).png">
+      </a>
+    </div>
+
+    <div id="progress-bar-container">
+      <label for="progress-bar">로딩중...</label>
+      <progress id = "progress-bar" value="0" max="100"></progress>
+
+    </div>
+
+  </body>
+</html>

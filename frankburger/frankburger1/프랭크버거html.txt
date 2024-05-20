@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프랭크버거</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="hWrap">
+            <h1>
+                <img src="./img/프랭크버거 로고.PNG" alt="로고">
+            </h1>
+            <ul class="menu">
+                <li>
+                    <a href="#">브랜드소개</a>
+                </li>
+                <li>
+                    <a href="#">메뉴안내</a>
+                </li>
+                <li>
+                    <a href="#">매장찾기</a>
+                </li>
+                <li>
+                    <a href="#">뉴스</a>
+                </li>
+                <li>
+                    <a href="#">창업안내</a>
+                </li>
+                <li>
+                    <a href="#">BIG이벤트</a>
+                </li>
+                <li>
+                    <a href="#">창업홈페이지</a>
+                </li>
+                <li>
+                    <a href="#">점주공간</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <section class="con">
+        <h3>
+            <img src="./img/프랭크버거 메뉴 타이틀.PNG">
+        </h3>
+        <ul class="container">
+            <!--<li class="button">
+                <a href="#">
+                    <img src="./img/캡처13.PNG">
+                </a>
+            </li>
+            <li class="button">
+                <a href="#">
+                    <img src="./img/캡처12.PNG">
+                </a>
+            </li><!-->
+            <li class="box">
+                <a href="#">
+                    <img src="./img/캡처1.PNG">
+                </a>
+            </li>
+            <li class="box">
+                <a href="#">
+                    <img src="./img/캡처2.PNG">
+                </a>
+            </li>
+            <li class="box">
+                <a href="#">
+                    <img src="./img/캡처3.PNG">
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section class="gallery">
+        <h3>
+             
+        </h3>
+        <ul class="container1">
+            <li class="box">
+                <a href="#">
+                    <img src="./img/burger restaurant.PNG"> 
+                   
+                </a>
+            </li>
+            <li class="box">
+                <a href="#">
+                    <img src="./img/후라이.PNG">
+                    
+                </a>    
+            </li>
+            <li class="box">
+                <a href="#">
+                    <img src="./img/burgerbar.PNG">
+                    
+                </a>
+            </li>
+    </ul>
+    <ul class="container2">
+        <h3>
+            <p class="tit">매장위치</p>
+        </h3>
+        <h3>
+            <p class="tit">단체주문</p>
+        </h3>
+        <h3>
+            <p class="tit">가맹문의</p>
+        </h3>
+    </ul>
+    </section>
+    <section class="burger">
+        <div class="imgBox">
+            <div class="vid">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/ENQiuyRIfpU" 
+                title="프랭크버거 X 싱어게인 3 TVC 30초 풀버전 공개!" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="event">
+        <h3><a href="#">
+            <img src="./img/진행중인 이벤트.PNG">
+        </a>
+        </h3>
+        <ul class="container3">
+            <li class="box1">
+                <a href="#">
+                    <img src="./img/프랭크버거 이벤트1.PNG">
+                </a>
+            </li>
+            <li class="box1">
+                <a href="#">
+                    <img src="./img/프랭크버거 이벤트2.PNG">
+                </a>
+            </li>
+            <li class="box1">
+                <a href="#">
+                    <img src="./img/프랭크버거 이벤트3.PNG">
+                </a>
+            </li>   
+        </ul>  
+    </section>
+
+    <section class="youtube">
+        <h3><a href="#">
+            <img src="./img/프랭크버거 유튜브 영상.PNG">
+        </a>
+        </h3>
+        <ul class="container4">
+            <li class="box1">
+                <a href="#">
+                    <img src="./img/프랭크버거 유튜브1.PNG">
+                </a>
+            </li>
+            <li class="box1">
+                <a href="#">
+                    <img src="./img/프랭크버거 유튜브2-1.PNG">
+                </a>
+            </li>
+            <li class="box1">
+                <a href="#">
+                    <img src="./img/프랭크버거 유튜브3.PNG">
+                </a>
+            </li>   
+        </ul>  
+    </section>
+
+    <section class="notice">
+        <ul class="container5">
+            <li class="box2">
+                <a href="#">
+                    <img src="./img/공지사항.PNG">
+                </a>
+            </li>
+            <li class="box2">
+                <a href="#">
+                    <img src="./img/이벤트.PNG">
+                </a>
+            </li>
+            <li class="box2">
+                <a href="#">
+                    <img src="./img/언론보도.PNG">
+                </a>
+            </li>   
+        </ul>  
+    </section>
+    <section class="bottom">
+        <ul class="container6">
+            <li class="box3">
+                <a href="#">
+                    <img src="./img/캡처.PNG">
+                </a>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <ul class="bottom">
+            <li class="logo">
+                <img src="./img/프랭크버거 로고2.PNG">
+            </li>
+            <li class="fInfo">
+                
+                  <li>개인정보처리방침 ▷ 이메일 무단수집거부</li>
+               
+                <address>
+                 (주)프랭크 에프앤비 경기도 부천시 옥산로 181<br>
+                 사업자번호 : 130-86-76090 통신판매업신고번호 : 2023-경기부천-3457<br>
+                 상기 자료는 2023년 2월 8일 공정위 등록 정보공개서를 근거로 작성되었습니다.<br>
+                
+                 ⓒ 2019 FRANK F&B. All Rights Reserved.<br>
+                </address>
+            </div>
+        </ul>
+        
+    </footer>
+</body>
+</html>

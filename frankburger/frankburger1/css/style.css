@@ -1,0 +1,90 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;  color: inherit}
+
+header{width: 100%; height: 78px; 
+       border-bottom: 1px solid black;
+       background-color: rgb(54, 52, 52);}
+header .hWrap{width: 1600px; height: 78px;
+             display: flex; margin: 0 auto;
+             justify-content: space-between;
+             position: relative;/*추가*/
+       }
+header .hWrap h1{margin-top: 10px; }
+ .hWrap .menu{display: flex; /*margin-top: 30px; */
+                    font-size: 20px; width: 80%;
+                    color: black;/*수정*/
+                    height: 50px; line-height: 50px;
+                    background-color: gray;
+              position: absolute; bottom: 0; right: 0;/*수정*/
+              }
+/*.menu>li확인!!*/
+.hWrap .menu>li{       margin-left: 30px; 
+                       padding-left: 20px;
+                       background-image: url(../img/line.jpg);
+                       background-repeat: no-repeat;
+                       /* margin-top: 20px; */
+                       width: 10%; text-align: center;
+                       border-bottom: 2px solid red;
+                      font-size: 12px;
+                       font-weight: bold;}
+.hWrap .menu>li:first-child{margin-left: 0;
+                    background-image: none;}
+.menu>li .subMenu{overflow: hidden; font-size: 15px;/*.menu>ul로 적어서 수정, .subMenu띄어쓰기*/
+                 top: 50px; left: 0;
+                 display: none;}
+
+main{background-image: url(../img/frankburgermain.jpg); 
+     width: 100%; height: 880px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-top: 50px;
+    }
+.con{width: 1600px; height: 800px; margin: 0 auto;}
+.con h3{text-align: center; margin-top: 100px;}
+.container{width: 1600px; display: flex; margin-top: 50px;
+           justify-content: space-between;}
+.container1 .box{width: 400px; 
+                display: flex; flex-direction: column;}
+.gallery{width: 1600px; height: 600px; margin: 0 auto;}
+.gallery h3{}
+.gallery ul{width:1600px; height:auto;
+            display: flex; justify-content: space-between;
+            flex-wrap: wrap;}
+.gallery ul li{width: 400px; height: 400px; margin-left: 30px;
+               padding: 30px; text-align: center;
+               border-radius: 10px;}
+ .gallery ul li img{width: 100%; height: 100%;}
+/* .gallery ul li .box1 img{width: 400px; height: 400px; }
+.gallery ul li .box2 img{width: 400px; height: 100%;}
+.gallery ul li .box3 img{width: 400px; height: 100%; } */
+.gallery ul li button{width: 400px; height: 70px;
+                      background-color: rgb(79, 153, 5);
+                     font-size: 40px; font-weight: bold;
+                     border: 0;
+                     box-shadow: 10px 10px 10px #a5a5a5;
+              }
+.gallery ul li .tit{text-align: center; font-size: 16px;
+                    font-weight: 700;}
+.burger{width: 1280px; margin: 0 auto;}
+.event{width: 1600px; height: auto; margin: 50px auto;}
+.event ul{width: 1600px; height: auto; display: flex;
+          flex-wrap: wrap; margin-top: 50px;
+         }
+.event ul li{width: 400px; height: 600px; background-color: green;
+             }
+.event ul li img{ width: 100%; height: 100%;}
+
+footer{width: 1600px; height:200px; margin: 0 auto;}
+footer .bottom{display: flex; margin-top: 50px;}
+footer .logo{padding-left: 250px; padding-right: 50px;}
+footer .fInfo{width: 1600px; height: 150px;
+       /*display: flex; justify-content: center;*/
+          }
+footer .fInfo .p{text-align: center;}
+.fInfo li{width: 1600px; flex-wrap: wrap; font-size: 15px;
+          text-align: center;}
+.fInfo address{font-style:normal; margin-top: 20px;}
+
+
