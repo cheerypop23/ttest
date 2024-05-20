@@ -35,7 +35,7 @@ header .hWrap h1{margin-top: 10px; }
                  top: 50px; left: 0;
                  display: none;}
 
-main{
+main{ 
      width: 50%; height: 1000px;
      margin: 0 auto;
      background-repeat: no-repeat;
@@ -87,5 +87,6 @@ footer .fInfo .p{text-align: center;}
 .fInfo li{width: 1600px; flex-wrap: wrap; font-size: 15px;
           text-align: center;}
 .fInfo address{font-style:normal; margin-top: 20px;}
+
 
 
