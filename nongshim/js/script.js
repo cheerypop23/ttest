@@ -10,7 +10,10 @@ if(winWidth < 800){
 common()
 
 function mo(){
-
+$(".side_menu_button").on("click",function(){
+    $(this).siblings(".menu").stop().slideToggle();
+    })
+    
 }
 
 
@@ -30,13 +33,11 @@ var swiper = new Swiper(".mySwiper", {
 }
 function common(){
 $(".menu>li>a").on("mouseover",function(){
-    $(this).siblings(".sub").stop().slideToggle();
-    $(this).parent().siblings().find(".sub").slideUp()
-})
-
-$(".button")
+    $(this).siblings(".menu").stop().slideToggle();
+    })
+    
 }
-f
+
 
 
 
