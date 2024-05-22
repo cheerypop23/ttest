@@ -54,13 +54,13 @@ ul, li{list-style: none;}
 .history1 .swiper-slide p{font-size: 24px;
            text-align: center;
            color: #d3c3c3;}
-
+.swiper-slide{}
 .swiper-slide img{width: 200px; height: 200px;
                   display: block;
                   margin: 0 auto;
                   }
 
-.text_history button{bottom: -4%;}           
+         
 .world{width: 100%; height: 30vh;
         position: relative;
         background-image: url(../img/캡처.PNG);
@@ -88,11 +88,13 @@ ul, li{list-style: none;}
           color: #333;}
 .notice h5{font-size: 15px;
            text-align: center;
+           
           
            color: #333;}
  .notice .box{width: 100%; height: 120vh;
              position: absolute;
              overflow: hidden;
+             margin-top: 20px;
         
              }
  .notice .box2{width: 100%; height: 120vh;
@@ -137,22 +139,22 @@ footer .fmenu1{display: flex;
                margin: 10px;
                padding: 10px;
                }
-.fmenu1 li{font-size: 12px; color: black;
+.fmenu1 li{font-size: 10px; color: black;
            margin-left: 15px;}
 footer .fmenu2{display: flex;
                margin: 10px;
                padding: 10px;}
-.fmenu2 li{font-size: 12px; color: black;
+.fmenu2 li{font-size: 10px; color: black;
            margin-left: 15px;}
 footer .fmenu3{display: flex;
                margin: 15px;
                padding: 10px;}
-.fmenu3 li{font-size: 12px; color: black;
+.fmenu3 li{font-size: 10px; color: black;
            margin-left: 15px;}
 footer .fmenu4{display: flex;
                margin-left: 25px;
                padding: 15px;}
-.fmenu4 li{font-size: 12px; color: black;
+.fmenu4 li{font-size: 10px; color: black;
                 }
 
 .sns img{margin-left: 30px;}
@@ -341,19 +343,19 @@ footer .fmenu4{display: flex;
         }
 .box2>li{width: 50%;}
 
-.pic1 img{width: 40vw; height: 40vh;
+.pic1 img{width: 30vw; height: 40vh;
          }
 
-.pic2 img{width: 20vw; height: 20vh;
+.pic2 img{width: 15vw; height: 20vh;
         display: block;
         }
-.pic3 img{width: 20vw; height: 20vh;
+.pic3 img{width: 15vw; height: 20vh;
         display: block;
         }
-.pic4 img{width: 20vw; height: 20vh;
+.pic4 img{width: 15vw; height: 20vh;
         display: block;
         }
-.pic5 img{width: 20vw; height: 20vh;
+.pic5 img{width: 15vw; height: 20vh;
         display: block;
         }
                       
@@ -478,19 +480,24 @@ footer{width: 100%; height: 100%;
 .notice p{font-size: 48px;}
 .notice h5{font-size: 24px;}
 
-.pic1 img{width: 45vw; height: 45vh;
+.box .box1{width: 60%; height: 60%;}
+.box .box2{width: 60%; height: 60%;
+           display: flex; flex-wrap: wrap;}
+.box2>li{width: 50%;}
+
+.pic1 img{width: 30vw; height: 45vh;
         padding-top: 0;}
 
-.pic2 img{width: 25vw; height: 25vh;
+.pic2 img{width: 15vw; height: 25vh;
       display: block;
       margin: 0 auto;}
-.pic3 img{width: 25vw; height: 25vh;
+.pic3 img{width: 15vw; height: 25vh;
       display: block;
       margin: 0 auto;}
-.pic4 img{width: 25vw; height: 25vh;
+.pic4 img{width: 15vw; height: 25vh;
       display: block;
       margin: 0 auto;}
-.pic5 img{width: 25vw; height: 25vh;
+.pic5 img{width: 15vw; height: 25vh;
       display: block;
       margin: 0 auto;}
 
@@ -511,4 +518,5 @@ footer{width: 100%; height: 100%;
 
 /*pc 푸터 끝*/
 /*pc 본문끝*/
+
 
