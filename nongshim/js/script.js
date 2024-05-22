@@ -33,7 +33,7 @@ var swiper = new Swiper(".mySwiper", {
 }
 function common(){
 $(".menu>li>a").on("mouseover",function(){
-    $(this).siblings(".menu").stop().slideToggle();
+    $(this).siblings(".sub").stop().slideToggle();
     })
     
 }
