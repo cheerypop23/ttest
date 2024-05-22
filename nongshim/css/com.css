@@ -11,60 +11,62 @@ header{width: 100%; height: 100vh;
        background-size: cover;
        position: relative;}
 .logo img{width: 150px; height: 50px;
-          margin: 30px 100px;
-          
+          margin: 30px 100px;       
          }
-h2{font-size: 24px; font-weight: bold;
+button img{top: 0%; right: 0%;
+           position: absolute;}
+.menu{display: none;}
+h2{font-size: 20px; font-weight: bold;
         margin-top: 30px;
         position: absolute;
-        top: 60%; left:50%;
+        top: 60%; left: 50%;
         transform: translateX(-50%);
         color: #333;
         }
 .h_wrap{width: 100%; height: 100vh;
         
        }
-.h_wrap .menu{width: 300px; 
-              height: 400px;
+.h_wrap .menu{width: 200px; 
+              height: 250px;
               /* background-color: blueviolet; */
               margin-left: 100px;
              
               background-color: skyblue;
               opacity: 0.5;
               }
-.menu li:hover{font-size: 30px;
+.menu li:hover{font-size: 20px;
                font-weight: 700;
                border: 3px solid rgb(241, 49, 1);
                background-color: rgb(255, 4, 4);
                
                }
-.menu .intro{margin:5px 25px; font-size: 20px;
+.menu .intro{margin:5px 25px; font-size: 15px;
               
               color: rgb(78, 1, 68);  
              }
-.menu .product{margin: 5px 25px; font-size: 20px;
+.menu .product{margin: 5px 25px; font-size: 15px;
               
               color: rgb(78, 1, 68);
               }
-.menu .press{margin: 5px 25px; font-size: 20px;
+.menu .press{margin: 5px 25px; font-size: 15px;
              
               color: rgb(78, 1, 68);}
-.menu .invest{margin: 5px 25px; font-size: 20px;
+.menu .invest{margin: 5px 25px; font-size: 15px;
               
               color: rgb(78, 1, 68);
              }
-.menu .innovation{margin: 5px 25px; font-size: 20px;
+.menu .innovation{margin: 5px 25px; font-size: 15px;
                   
                   color: rgb(78, 1, 68);}
-.menu .service{margin: 5px 25px; font-size: 20px;
+.menu .service{margin: 5px 25px; font-size: 15px;
               
               color: rgb(78, 1, 68);}
 .menu .live{margin: 5px 25px;
-            font-size: 20px; color: #02221f;
+            font-size: 15px; color: #02221f;
             }
 .menu .mall{margin: 0px 25px; 
-            font-size: 20px; color: #02221f;}
-.menu .sub{display: none; font-size: 15px;
+            font-size: 15px; color: #02221f;}
+.menu .sub{display: none; font-size: 12px;
            color: blue; font-weight: bold;}
 
 
@@ -75,6 +77,8 @@ h2{font-size: 24px; font-weight: bold;
 
 .logo img{width: 200px; height: 70px;
        margin-left: 100px;}
+button img{display: none;}
+.menu{display: block;}
 h2{font-size: 40px; font-weight: bold;
        margin-top: 30px;
        position: absolute;
@@ -85,15 +89,14 @@ h2{font-size: 40px; font-weight: bold;
 .h_wrap{width: 100%; height: 100%;
         
        }
-.h_wrap .menu{width: 400px; 
-              height: 500px;
+.h_wrap .menu{width: 250px; 
+              height: 300px;
               /* background-color: blueviolet; */
               margin-left: 100px;
 
               }
-.menu{ 
-      }
-.menu li:hover{font-size: 30px;}
+
+.menu li:hover{font-size: 25px;}
 .menu .intro{font-size: 20px;}
 .menu .product{font-size: 20px;}
 .menu .press{font-size: 20px;}
@@ -119,26 +122,24 @@ h2{font-size: 48px; font-weight: bold;
           transform: translateX(10%);
           color: #333;
               }
-.h_wrap{width: 100%; height: 100%;
-        
-       }
-.h_wrap .menu{width: 500px; 
-              height: 600px;
+.h_wrap{width: 100%; height: 100%;}
+.h_wrap .menu{width: 350px; 
+              height: 400px;
               /* background-color: blueviolet; */
               margin-left: 100px;
               }
 .menu{ font-weight: bold;
               color: aqua;
              }
-.menu li:hover{font-size: 60px;}
-.menu .intro{font-size: 40px;}
-.menu .product{font-size: 40px;}
-.menu .press{font-size: 40px;}
-.menu .invest{font-size: 40px;}
-.menu .innovation{font-size: 40px;}
-.menu .service{font-size: 40px;}
-.menu .live{font-size : 40px;}
-.menu .mall{font-size: 40px;}
+.menu li:hover{font-size: 35px;}
+.menu .intro{font-size: 30px;}
+.menu .product{font-size: 30px;}
+.menu .press{font-size: 30px;}
+.menu .invest{font-size: 30px;}
+.menu .innovation{font-size: 30px;}
+.menu .service{font-size: 30px;}
+.menu .live{font-size : 30px;}
+.menu .mall{font-size: 30px;}
 .menu .sub{display: none; font-size: 25px;
            color: blue; font-weight: bold;} 
 
